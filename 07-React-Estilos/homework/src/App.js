@@ -1,13 +1,14 @@
 import React from 'react';
 import './App.css';
-import Card from './components/Card.jsx';
-import Cards from './components/Cards.jsx';
-import SearchBar from './components/SearchBar.jsx';
+import Card from './components/Card/Card';
+import Cards from './components/Cards/Cards.jsx';
+import SearchBar from './components/Search/SearchBar.jsx';
 import data, { Cairns } from './data.js';
+import Style from './App.module.css'
 
 function App() {
   return (
-    <div className="App">
+    <div className={Style.app}>
       <div>
         <Card
           max={Cairns.main.temp_max}

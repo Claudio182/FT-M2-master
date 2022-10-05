@@ -1,0 +1,57 @@
+
+
+.app {
+   padding-top: 80px;
+   background-image: url('https://p4.wallpaperbetter.com/wallpaper/804/784/906/pink-petaled-flower-in-macro-photography-wallpaper-preview.jpg');
+   height: 800px;
+   opacity: 0.95;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+}
+
+#contCard {
+   display: flex;
+   flex-direction: column;
+   justify-items: center;
+   max-width: 400px;
+   border: solid 1px hsla(0, 0%, 9%, 0.774);
+   border-radius: 15px;
+   background-color: hsla(0, 0%, 0%, 0.527);
+   color: aliceblue;
+}
+
+#btn {
+   position: relative;
+   left: 310px;
+   top: 15px;
+   /* bottom: 0px; */
+   width: 30px;
+   background-color: hsl(0, 50%, 73%);
+   border: 0.5px solid hsl(0, 50%, 56%);
+   border-radius: 20%;
+   text-align: end;
+   z-index: 1;
+   
+}
+
+.cityN {
+   display: inline-block;
+   text-align: center;
+   margin-top: 25px;
+   margin-right: 250px;
+}
+
+.info {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   justify-content: center;
+   
+}
+
+.p {
+   position: relative;
+   padding: 20px 10px;
+   
+}

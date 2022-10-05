@@ -1,12 +1,14 @@
 import React from 'react';
-import Card from './Card';
+import Card from '../Card/Card';
+import Style  from '../Cards/Cards.module.css';
+
 
 export default function Cards(props) {
   // acá va tu código
 
   // tip, podés usar un map
   return (
-    <div>
+    <div id={Style.display}>
       {props.cities.map(city =>
         <Card 
           max={city.main.temp_max}
