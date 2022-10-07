@@ -10,7 +10,7 @@ export default function Cards(props) {
   return (
     <div id={Style.display}>
       {props.cities.map(city =>
-        <Card 
+        <Card
           max={city.main.temp_max}
           min={city.main.temp_min}
           name={city.name}
