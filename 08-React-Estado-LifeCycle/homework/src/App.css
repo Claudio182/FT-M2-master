@@ -4,5 +4,7 @@
 
 .row {
   display: flex;
+  flex-direction: row;
   justify-content: center;
+  border: 1px sienna solid;
 }
